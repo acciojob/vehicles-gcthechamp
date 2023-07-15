@@ -7,6 +7,21 @@ public class F1 extends Car {
         super(name, 3, 2, 1, isManual, "Racer", 1);
     }
 
+    @Override
+    public String getName() {
+        return super.getName();
+    }
+
+    @Override
+    public boolean isManual() {
+        return super.isManual();
+    }
+
+    @Override
+    public int getCurrentGear() {
+        return super.getCurrentGear();
+    }
+
     public void accelerate(int rate) {
         int newSpeed = 0; //set the value of new speed by using currentSpeed and rate
         /**
